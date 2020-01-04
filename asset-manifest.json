@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/exprealty/static/css/main.7e6f36cc.chunk.css",
+    "main.js": "/exprealty/static/js/main.7ca91934.chunk.js",
+    "main.js.map": "/exprealty/static/js/main.7ca91934.chunk.js.map",
+    "runtime-main.js": "/exprealty/static/js/runtime-main.1a9f3a82.js",
+    "runtime-main.js.map": "/exprealty/static/js/runtime-main.1a9f3a82.js.map",
+    "static/js/2.128998d3.chunk.js": "/exprealty/static/js/2.128998d3.chunk.js",
+    "static/js/2.128998d3.chunk.js.map": "/exprealty/static/js/2.128998d3.chunk.js.map",
+    "index.html": "/exprealty/index.html",
+    "precache-manifest.51933c10cc14528dc8e0c1e2705c270f.js": "/exprealty/precache-manifest.51933c10cc14528dc8e0c1e2705c270f.js",
+    "service-worker.js": "/exprealty/service-worker.js",
+    "static/css/main.7e6f36cc.chunk.css.map": "/exprealty/static/css/main.7e6f36cc.chunk.css.map",
+    "static/js/2.128998d3.chunk.js.LICENSE": "/exprealty/static/js/2.128998d3.chunk.js.LICENSE",
+    "static/media/backgimg.png": "/exprealty/static/media/backgimg.f1ab731c.png",
+    "static/media/facebook.svg": "/exprealty/static/media/facebook.eaaf61bf.svg",
+    "static/media/linkedin.svg": "/exprealty/static/media/linkedin.48394d09.svg",
+    "static/media/twitter.svg": "/exprealty/static/media/twitter.e5b21b3e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1a9f3a82.js",
+    "static/js/2.128998d3.chunk.js",
+    "static/css/main.7e6f36cc.chunk.css",
+    "static/js/main.7ca91934.chunk.js"
+  ]
+}
