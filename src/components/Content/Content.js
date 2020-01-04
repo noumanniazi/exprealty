@@ -1,14 +1,19 @@
-import React from "react";
+import React from 'react';
 
-import "./Content.scss";
+import './Content.scss';
 
-const Content = ({ heading = undefined, paragraphs }) => {
+const Content = ({ id = '', heading = undefined, paragraphs, getAccess }) => {
   return (
-    <div id="exploreus" className="content">
+    <div id={id} className="content">
       {heading && <div className="content-heading">{heading}</div>}
-      {paragraphs.map(text => (
+      {paragraphs.map((text) => (
         <p className="paragraph">{text}</p>
       ))}
+      {getAccess && (
+        <div className="get-access">
+          <a href={getAccess.URL}>{getAccess.text}</a>
+        </div>
+      )}
     </div>
   );
 };

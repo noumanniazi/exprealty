@@ -12,9 +12,9 @@ function App() {
     <div className="App">
       <Header />
       <Intro />
-      <Content heading={content1.heading} paragraphs={content1.paragraphs} />
+      <Content id="exploreus" heading={content1.heading} paragraphs={content1.paragraphs} />
       <Video url="https://www.youtube.com/embed/p54pHtlG4xs"/>
-      <Content heading={content2.heading} paragraphs={content2.paragraphs} />
+      <Content heading={content2.heading} paragraphs={content2.paragraphs} getAccess={{URL: "https://raymondkerege.exprealty.careers/", text: "Click Here to Get Access Now!"}} />
       <Video url="https://www.youtube.com/embed/tEAj--jFJUk"/>
       <Content heading={content3.heading} paragraphs={content3.paragraphs} />
       <Video className="space" url="https://www.youtube.com/embed/5VF5wLyuv2g"/>
