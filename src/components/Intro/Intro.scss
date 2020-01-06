@@ -3,6 +3,7 @@
   position: relative;
   .intro-img {
     width: 100%;
+    min-height: 800px;
     .intro-bg {
       object-fit: contain;
       width: 100%;
@@ -51,14 +52,19 @@
         color: #ffffff;
       }
       .btn-txt {
-        font-family: "Lato";
+        font-family: 'Lato';
         font-style: normal;
         font-weight: bold;
         font-size: 28px;
         line-height: 34px;
       }
     }
-    @media (max-width: 1024px) {
+  }
+  @media (max-width: 1024px) {
+    .intro-img {
+      min-height: 685.5px;
+    }
+    .intro-content {
       .heading {
         font-size: 28px;
         line-height: 32px;
@@ -83,7 +89,12 @@
         }
       }
     }
-    @media (max-width: 768px) {
+  }
+  @media (max-width: 768px) {
+    .intro-img {
+      min-height: 515px;
+    }
+    .intro-content {
       left: 52px;
       .heading {
         font-size: 22px;
@@ -109,7 +120,12 @@
         }
       }
     }
-    @media (max-width: 480px) {
+  }
+  @media (max-width: 480px) {
+    .intro-img {
+      min-height: 250px;
+    }
+    .intro-content {
       width: 100%;
       left: 0px;
       top: 24%;

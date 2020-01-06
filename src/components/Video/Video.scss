@@ -4,16 +4,16 @@
   height: 0;
   padding-bottom: 56.25%;
   &.space {
-    margin-bottom: 130px;
+    margin-bottom: 150px;
     background-color: rgba(211, 230, 228, 0.37);
     @media(max-width: 1024px){
-      margin-bottom: 100px;
+      margin-bottom: 130px;
     }
     @media(max-width: 768px){
-      margin-bottom: 80px;
+      margin-bottom: 100px;
     }
     @media(max-width: 480px){
-      margin-bottom: 40px;
+      margin-bottom: 70px;
     }
   }
   .video-iframe {

@@ -1,5 +1,5 @@
 export const content1 = {
-  heading: "MAKING STAGGERING PROFITS WITH EXP REALTY",
+  heading: "There is a reason. Find out Why.",
   paragraphs: [
     `Take the time to check out the brief videos. It will answer many of your questions and give you the quick “paint-by-the-numbers” way to see what your full potential is at the first brokerage that puts agents first.`,
     `Besides excellent sales tools and training, you’ll have the opportunity to be receiving fresh leads regularly and a breakthrough business model that allows you the create your own business with multiple streams of income!`
