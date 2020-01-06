@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/exprealty/precache-manifest.d79b3547f65f4040b3ddd99ae3172dc0.js"
+  "/exprealty/precache-manifest.255a158589c5929f167a25639766993a.js"
 );
 
 self.addEventListener('message', (event) => {
